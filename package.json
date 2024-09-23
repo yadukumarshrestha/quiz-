@@ -1,0 +1,35 @@
+{
+    "name": "study-material-website",
+    "version": "1.0.0",
+    "description": "A study material website with an admin panel for managing MCQs.",
+    "main": "server/server.js",
+    "scripts": {
+        "start": "node server/server.js",
+        "test": "mocha test/**/*.test.js",
+        "dev": "nodemon server/server.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.0",
+        "express": "^4.21.0",
+        "jsonwebtoken": "^9.0.0",
+        "module-name": "^0.0.1-security",
+        "mongoose": "^6.6.0"
+    },
+    "devDependencies": {
+        "chai": "^4.3.6",
+        "chai-http": "^4.3.0",
+        "mocha": "^10.0.0",
+        "nodemon": "^2.0.22"
+    },
+    "keywords": [
+        "study",
+        "material",
+        "website",
+        "admin",
+        "MCQs"
+    ],
+    "author": "krishna Shrestha",
+    "license": "MIT"
+}

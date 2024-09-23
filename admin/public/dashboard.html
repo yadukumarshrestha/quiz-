@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/admin.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <div class="dashboard-container">
+        <h2>Admin Dashboard</h2>
+        <form id="questionForm">
+            <input type="text" id="question" placeholder="Enter Question" required>
+            <input type="text" id="option1" placeholder="Option 1" required>
+            <input type="text" id="option2" placeholder="Option 2" required>
+            <input type="text" id="option3" placeholder="Option 3" required>
+            <input type="text" id="option4" placeholder="Option 4" required>
+            <input type="text" id="correctAnswer" placeholder="Correct Answer" required>
+            <button type="submit">Add Question</button>
+        </form>
+        <div id="questionsList"></div>
+    </div>
+    <script src="scripts/admin.js"></script>
+</body>
+</html>
+
